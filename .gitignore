@@ -1,5 +1,5 @@
 # Rust 构建目录
-/target/
+**/target/
 
 # IDE 和编辑器文件
 .idea/
