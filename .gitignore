@@ -1,0 +1,28 @@
+# Rust 构建目录
+/target/
+
+# IDE 和编辑器文件
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Rust 依赖锁文件（建议保留在版本控制中）
+# Cargo.lock
+
+# 调试文件
+**/*.rs.bk
+
+# 环境变量文件
+.env
+.env.local
+
+# 日志文件
+*.log
+
+# 生成的文档
+/doc/
+
+# Cargo 配置文件的本地覆盖
+.cargo/config.toml
